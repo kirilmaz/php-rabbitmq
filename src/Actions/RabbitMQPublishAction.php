@@ -18,7 +18,6 @@ class RabbitMQPublishAction {
         );
 
         $channel = $connection->channel();
-
         $channel->queue_declare($queue, false, true, false, false);
 
         $msg = new AMQPMessage($message);
