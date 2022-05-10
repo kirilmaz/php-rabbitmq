@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Kirilmaz\Auth\Providers;
+namespace Kirilmaz\RabbitMQ\Providers;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider {
     public function boot() { }
