@@ -1,5 +1,5 @@
 {
-    "name": "kirilmaz/rabbitmq-publish",
+    "name": "kirilmaz/rabbitmq",
     "description": "Package for publishing basic to rabbitmq",
     "type": "library",
     "require": {
