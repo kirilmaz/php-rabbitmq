@@ -1,0 +1,30 @@
+{
+    "name": "kirilmaz/rabbitmq-publish",
+    "description": "Package for publishing basic to rabbitmq",
+    "type": "library",
+    "require": {
+        "php": ">=8.1",
+        "kirilmaz/helpers": "dev-master",
+        "php-amqplib/php-amqplib": "2.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kirilmaz\\RabbitMQ\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kenan Kirilmaz",
+            "email": "kenan@kirilmaz.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kirilmaz\\RabbitMQ\\Providers\\ServiceProvider"
+            ]
+        }
+    }
+}
