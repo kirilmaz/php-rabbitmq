@@ -14,7 +14,7 @@ class RabbitMQPublishAction {
             $config->host,
             $config->port,
             $config->username,
-            $config->passwprd
+            $config->password
         );
 
         $channel = $connection->channel();
